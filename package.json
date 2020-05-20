@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "license": "MIT",
+  "scripts": {
+    "start": "docsify start .",
+    "deploy": "now -p"
+  },
+  "files": [
+    "docs"
+  ],
+  "docsify": {
+    "config": {
+      "basePath": "/",
+      "loadSidebar": true,
+      "loadNavbar": true,
+      "coverpage": true,
+      "name": "docsify"
+    }
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.0",
+    "now": "^19.0.1"
+  }
+}
